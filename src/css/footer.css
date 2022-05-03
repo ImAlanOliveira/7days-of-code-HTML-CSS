@@ -1,0 +1,45 @@
+footer{
+    background-color:rgba(232, 230, 230, 0.615);
+    margin-top:15vh;
+    padding:100px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:25px;
+}
+
+footer h2{
+    font-size: 1.7rem;
+}
+
+footer span{
+    color: var(--text-color);
+}
+
+footer input{
+    width:300px;
+    padding:10px;
+    border-radius:7px;
+    border:1px solid #ccc;
+}
+
+footer button{
+    padding:10px;
+    border:none;
+    background-color: var(--red-color);
+    color:#fff;
+    font-weight:600;
+    cursor:pointer;
+    border-radius:7px;
+    margin-left:10px;
+    transition:ease-in-out .2s;
+}
+
+footer button:hover{
+    background-color:#7a1c1c;
+    transform:scale(1.05);
+}
+
+footer .direitosReservados{
+    color:rgba(130, 128, 128, 0.615)
+}

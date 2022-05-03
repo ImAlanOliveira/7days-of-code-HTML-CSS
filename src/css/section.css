@@ -1,0 +1,100 @@
+.primeiraSecao{
+    display:flex;
+    gap:30px;
+    width:90%;
+    margin:10vh auto;
+}
+
+.primeiraSecao div{
+    display:flex;
+    flex-direction:column;
+    row-gap:10px;
+}
+
+.primeiraSecao div h1{
+    font-size:3em;
+    color: var(--red-color);
+}
+
+.primeiraSecao div span{
+    font-weight:bold;
+}
+
+.primeiraSecao div p{
+    color: var(--text-color);
+}
+
+.segundaSecao{
+    text-align:center;
+    margin-top:10vh;
+    display:flex;
+    flex-direction:column;
+    row-gap:20px;
+}
+
+.segundaSecao span{
+    color:var(--red-color);
+    font-weight:500;
+    background-color:rgb(251, 246, 240);
+    width:140px;
+    margin:auto;
+    padding:5px 9px 5px 9px;
+    border-radius:20px;
+    border: 1px solid #000;
+    box-shadow: 0px 3px 5px 0px rgb(98, 98, 98);
+}
+
+.segundaSecao h1{
+    font-size:2.5em;
+}
+
+.segundaSecao p{
+    color: var(--text-color);
+    font-size:1.2em;
+}
+
+.segundaSecao img{
+    width:80%;
+    margin:5vh auto;
+}
+
+.depoimentos{
+    width:70%;
+    margin:auto;
+    text-align:center;
+    background-color:rgb(251, 246, 240);
+    padding: 60px;
+    border: 1px solid #000;
+    border-radius:20px;
+    box-shadow: 0px 3px 5px 0px rgb(98, 98, 98);
+}
+
+.depoimentos .elementosDepoimento{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.depoimentos .textoDepoimentos{
+    color: var(--red-color);
+    font-weight:700;
+}
+
+.depoimentos .elementosDepoimento .colaboradora{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.depoimentos .elementosDepoimento .colaboradora img{
+    width:55px;
+    margin:auto;
+}
+
+.depoimentos .elementosDepoimento .colaboradora .nomeColaboradora{
+    font-weight:600;
+}
+
+.depoimentos .elementosDepoimento .colaboradora .profissaoColaboradora{
+    color: var(--text-color);
+}

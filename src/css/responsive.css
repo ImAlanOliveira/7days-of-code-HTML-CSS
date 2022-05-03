@@ -1,0 +1,70 @@
+@media (max-width:800px){
+    nav{
+        display:flex;
+        justify-content:space-between;
+    }
+
+
+   #btnMobile{
+       display:block;
+   }
+
+   #menu, .botoes{
+       display:none;
+       position:absolute;
+       width:100%;
+       top:60px;
+       left:50%;
+       
+   }
+
+   #nav.active #menu, #nav.active .botoes{
+       display:flex;
+       flex-direction:column;
+   }
+
+   #nav.active #menu ul{
+       display:flex;
+       flex-direction:column;
+   }
+
+   #btnMobile{
+       display:flex;
+       padding: .5rem 1rem;
+       font-size:1rem;
+       border:none;
+       background:none;
+   }
+
+   #hamburguer{
+       width:20px;
+       border-top:2px solid;
+       display:block;
+   }
+
+   #hamburguer::after, #hamburguer::before {
+       content:"";
+       display:block;
+       width:20px;
+       height:2px;
+       background-color: currentColor;
+       margin-top:5px;
+       transition: .3s;
+       position:relative;
+   }
+
+   #nav.active #hamburguer{
+       border-top-color: transparent;
+   }
+
+   #nav.active #hamburguer::before{
+       transform:rotate(135deg);
+   }
+
+   #nav.active #hamburguer::after{
+       transform:rotate(-135deg);
+       top: -7px;
+   }
+
+
+}

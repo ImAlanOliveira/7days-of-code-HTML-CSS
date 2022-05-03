@@ -1,0 +1,18 @@
+header{
+    text-align:center;
+    margin-top:4vh;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+header span{
+    color: var(--red-color);
+    font-weight:800;
+}
+
+header p{
+    color: var(--text-color);
+    max-width:50%;
+    margin:auto;
+}
